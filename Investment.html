@@ -7,8 +7,10 @@
     <!--  bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <!-- social media icons -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- social media icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <!-- fonts -->
+     <link href="https://fonts.googleapis.com/css?family=Cormorant|Dancing+Script&display=swap" rel="stylesheet">
     <!-- css -->
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -16,37 +18,125 @@
 </head>
 
 <body>
-    <!-- Navbar -->
-    <nav class="nav nav-pills flex-column flex-sm-row">
-            <a class="flex-sm-fill text-sm-center nav-link" href="About.html">About</a>
-            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
-                aria-expanded="false">Portfolio</a>
-            <div class="dropdown-menu">
-                <a class="dropdown-item" href="#">Newborn</a>
-                <a class="dropdown-item" href="#">Family</a>
-                <a class="dropdown-item" href="#">Senior</a>
-                <a class="dropdown-item" href="#">Headshots</a>
-                <a class="dropdown-item" href="#">Milestones</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="Portfolio.html">View All</a>
+   <!-- Navbar -->
+   <div id='navbarBody'>
+        <nav class="nav nav-pills flex-column flex-sm-row">
+             <a id= 'navPill'class="flex-sm-fill text-xl-center nav-link" href="About.html">About</a>
+             <a id= 'navPill' class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                 aria-expanded="false">Portfolio</a>
+             <div class="dropdown-menu">
+                 <a class="dropdown-item" href="#">Newborn</a>
+                 <a class="dropdown-item" href="#">Family</a>
+                 <a class="dropdown-item" href="#">Senior</a>
+                 <a class="dropdown-item" href="#">Headshots</a>
+                 <a class="dropdown-item" href="#">Milestones</a>
+                 <div class="dropdown-divider"></div>
+                 <a class="dropdown-item" href="Portfolio.html">View All</a>
+             </div>
+             <a id= 'navPill' class="flex-sm-fill text-xl-center nav-link" href="Galleries.html">Galleries</a>
+             <a id= 'navPill' class="flex-sm-fill text-xl-center nav-link" href="index.html" tabindex="-1" aria-disabled="true">Logo</a>
+             <a id= 'navPill' class="flex-sm-fill text-xl-center nav-link" href="Investment.html">Investment</a>
+             <a id= 'navPill' class="flex-sm-fill text-xl-center nav-link" href="Connect.html">Connect</a>
+         </nav>
+         </div>
+    <div>
+        <div class="card bg-dark text-white">
+            <img src="images/investment/image0.jpeg" alt="">
+            <div class="card-img-overlay">
+                <h5 class="card-title">Headshots</h5>
+                <p class="card-text">Need an updated headshot? Indoor or outdoor sessions available! You will receive 10
+                    edited images delivered electronically. <br> ≈ 15-30 minutes</p>
+                    <p class="card-text">$50</p>
+                </div>
             </div>
-            <a class="flex-sm-fill text-sm-center nav-link" href="Booking.html">Booking</a>
-            <a class="flex-sm-fill text-sm-center nav-link disabled" href="/index.html" tabindex="-1" aria-disabled="true">Logo</a>
-            <a class="flex-sm-fill text-sm-center nav-link" href="Investment.html">Investment</a>
-            <a class="flex-sm-fill text-sm-center nav-link" href="Connect.html">Connect</a>
-        </nav>
-    
-
-
-               <!-- Footer -->
-    <div id="footer">
-            <p>Brenna Devitt photography is serving ___, ___, ____ and ____. or I work in ____</p>
-            <a href="https://www.facebook.com/brennadevittphotography/" class="fa fa-facebook"></a>
-    <a href="https://www.instagram.com/brennadevittphotography/" class="fa fa-instagram"></a>
-    <a href="mailto:brennadevittphotography@gmail.com" class="fa fa-envelope"></a>
+            <div class="card bg-dark text-white">
+                <img src="images/investment/image1.jpeg" alt="">
+                <div class="card-img-overlay">
+                    <h5 class="card-title">Milestones</h5>
+                    <p class="card-text">Milestone sessions are perfect for those early days when time passes and baby grows
+                        so quickly! You will receive 30+ edited images delivered electronically. <br> ≈ 45 minutes</p>
+                    <p class="card-text">$125</p>
+                </div>
+            </div>
+            <div class="card bg-dark text-white">
+            <img src="images/investment/image5.jpeg" alt="">
+            <div class="card-img-overlay">
+                <h5 class="card-title">Senior</h5>
+                <p class="card-text">Senior year is such an exciting transition, and the perfect time to pause and have
+                    photos taken catered to you and your personality. Photos will be taken at a location of your choice,
+                    and 30+ digital images will be delivered to you electronically. <br> ≈ 1 hour</p>
+                <p class="card-text">$150</p>
+            </div>
         </div>
-        <!-- jquery -->
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        <div class="card bg-dark text-white">
+            <img src="images/carousel/_DSC0207.jpg" alt="">
+            <div class="card-img-overlay">
+                <h5 class="card-title">Family Mini Session</h5>
+                <p class="card-text">Mini sessions are great for family photos, senior photos, and milestone sessions!
+                    Mini sessions are available year round at various locations. You will receive 25+ edited images
+                    delivered electronically. <br> ≈ 30 minutes</p>
+                <p class="card-text">$100</p>
+            </div>
+        </div>
+        <div class="card bg-dark text-white">
+            <img src="images/carousel/_DSC0274.jpg" alt="">
+            <div class="card-img-overlay">
+                <h5 class="card-title">Family Session</h5>
+                <p class="card-text">Investing in family photos is the perfect way to freeze the way life looks now for
+                    your family, to be looked back at for years to come! We will shoot at a location of your choice. You
+                    will receive 40+ edited images delivered electronically. <br> ≈ 1 hour</p>
+                <p class="card-text">$150</p>
+            </div>
+        </div>
+        <div class="card bg-dark text-white">
+            <img src="images/investment/image3.jpeg" alt="">
+            <div class="card-img-overlay">
+                <h5 class="card-title">Extended Family Session</h5>
+                <p class="card-text">Invite your extended family to join in the fun! This is the perfect gift for
+                    parents, in laws, or any other photo-lover in your family. We will shoot at a location of your
+                    choice, and you will receive 45+ edited images. <br> ≈ 1 hour 30 minutes</p>
+                <p class="card-text">$200</p>
+            </div>
+        </div>
+        <div class="card bg-dark text-white">
+            <img src="images/investment/image10.jpeg" alt="">
+            <div class="card-img-overlay">
+                <h5 class="card-title">Newborn</h5>
+                <p class="card-text">Let’s capture those sweet newborn faces, fingers, and toes! Posed photos, lifestyle
+                    sessions, and hybrid sessions available. I bring all props to you for a shoot in your home. You will
+                    receive 40+ images delivered electronically. <br> ≈ 2 hours</p>
+                <p class="card-text">$200</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Back Up Display -->
+    <!-- <div class="card mb-3" style="max-width: 540px;">
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <img src="images/investment/image0.jpeg" class="card-img" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> -->
+
+
+    <!-- Footer -->
+    <div id="footer">
+        <p>Brenna Devitt photography is serving ___, ___, ____ and ____. or I work in ____</p>
+        <a href="https://www.facebook.com/brennadevittphotography/" class="fa fa-facebook"></a>
+        <a href="https://www.instagram.com/brennadevittphotography/" class="fa fa-instagram"></a>
+        <a href="mailto:brennadevittphotography@gmail.com" class="fa fa-envelope"></a>
+    </div>
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
@@ -57,4 +147,5 @@
         crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery.js"></script>
 </body>
+
 </html>

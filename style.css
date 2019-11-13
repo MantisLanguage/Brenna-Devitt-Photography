@@ -1,22 +1,86 @@
 #carouselHome{
     width: 100vw;
-    height: 40vw;
+    height: 80vh;
 }
 #carouselImg{
     width: 100vw;
-    height: 40vw;
+    height: 80vh;
+}
+a{
+    font-family: 'Dancing Script', cursive;
+}
+H1{
+    font-family: 'Dancing Script', cursive;
+}
+H5{
+    font-family: 'Dancing Script', cursive;
+}
+p{
+
+    font-family: 'Cormorant', serif;
+}
+H2{
+    font-family:  'Cormorant', serif;
+}
+body{
+    background-color: rgb(240, 240, 240);
+}
+#navbarBody{
+    background-color: rgb(240, 240, 240);
+    border-bottom: 3px solid grey;
+    border-radius: 23px;
+    height: 7vh;
+    /* changes functionality */
+    /* position: fixed;
+    width: 100%; */
+/* end change */
+
+}
+#navPill{
+    color: rgb(76, 164, 236);
+    background-color: rgb(240, 240, 240);
+}
+#footer{
+    background-color: rgb(240, 240, 240);
+    text-align: center;
+}
+#aboutDiv{
+    margin: 7vh;
+    width: 90vw;
+    height: 100vh;
+    background-color: grey;
+}
+#aboutWrap{
+    display: flex;
+}
+#aboutImg{
+    width: 30vw;
+    Height: 64vh
+}
+#aboutText{
+    font-size: 4vh;
+}
+
+#aboutTitle{
+    font-size: 6vh;
 }
 
 
 
-
+#fbIcon{
+    size: 200%;
+}
 
 .fa-instagram{
-
+    size: 200%;
+    height: 10vh;
+    width: 10vw;
 }
 .fa-facebook{
-
+    height: 10vh;
+    width: 10vw;
 }
 .fa-envelope{
-    
+    height: 10vh;
+    width: 10vw;
 }
